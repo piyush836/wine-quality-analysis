@@ -18,6 +18,11 @@ This project represents the exploratory data analysis (EDA) stage, helping valid
 
 This project explores the Wine Quality (Red Wine) dataset using Python and popular data analysis libraries.
 
+## Business Context
+
+Wine quality assessment is often subjective and dependent on expert tasters. By analyzing physicochemical properties of wine, this project aims to identify objective patterns that influence quality ratings, which can support quality control, production decisions, and consistency in wine manufacturing.
+
+
 ## Dataset
 
 - [Wine Quality Data (UCI)](https://archive.ics.uci.edu/ml/datasets/wine+quality)
@@ -66,4 +71,14 @@ This project explores the Wine Quality (Red Wine) dataset using Python and popul
 - Train baseline machine learning models to predict wine quality.
 - Evaluate model performance and address class imbalance.
 
+## Assumptions & Constraints
+
+- The quality score provided in the dataset is assumed to be a reliable proxy for overall wine quality.
+- The dataset represents red wine samples only; insights may not generalize to white wines.
+- External factors such as brand, price, and consumer preference are not included in the dataset.
+
+## Limitations
+
+- The dataset size is limited and may not capture all variability in real-world wine production.
+- Quality labels are ordinal but treated numerically during analysis.
 
