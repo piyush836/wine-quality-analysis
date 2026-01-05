@@ -1,16 +1,21 @@
 # Problem
+
 Understand which physicochemical properties of red wine influence quality ratings, and identify pattern that can help assess wine quality objectively.
 
 # Data Source
+
 Public Wine Quality(Red Wine) dataset from the UCI Machine Learning Repository, provided as a structured CSV file.
 
 # Final Output
+
 Exploratory insights and feature relationships that expalin variations in wine quality ratings and guide future predictive modeling.
 
 # Where  this fits in a Data Science Pipeline
+
 This project represents the exploratory data analysis (EDA) stage, helping validate data quality, uncover pattern, and inform feature selection before model training.
 
-# Wine Quality EDA
+# Wine Quality Analysis- Exploratory Data Analysis & Pipeline Context
+
 This project explores the Wine Quality (Red Wine) dataset using Python and popular data analysis libraries.
 
 ## Dataset
@@ -35,12 +40,12 @@ This project explores the Wine Quality (Red Wine) dataset using Python and popul
 
 ## Key Findings
 
-- The dataset is imbalanced (most wines rated 5-7).
-- Alcohol and volatile acidity are important for wine quality.
-- Some features are skewed.
+- Wine quality ratings are concentrated between 5 and 7, indicating class imbalance that must be handled in modeling.
+- Alcohol content shows a strong positive relationship with wine quality, while volatile acidity shows a negative relationship.
+- Several physicochemical features are right-skewed, suggesting the need for transformations during feature engineering.
+
 
 ## References
-
 
 - [UCI Wine Quality Dataset](https://archive.ics.uci.edu/ml/datasets/wine+quality)
 
@@ -54,4 +59,11 @@ This project explores the Wine Quality (Red Wine) dataset using Python and popul
 6. **Model Training (Planned)** – Training machine learning models to predict wine quality.
 7. **Evaluation (Planned)** – Measuring model performance using appropriate metrics.
 8. **Final Output** – Insights and predictions related to wine quality.
+
+## Next steps
+
+- Perform feature engineering based on EDA insights.
+- Train baseline machine learning models to predict wine quality.
+- Evaluate model performance and address class imbalance.
+
 
