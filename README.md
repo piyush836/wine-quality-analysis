@@ -48,6 +48,7 @@ Wine quality assessment is often subjective and dependent on expert tasters. By 
 - Wine quality ratings are concentrated between 5 and 7, indicating class imbalance that must be handled in modeling.
 - Alcohol content shows a strong positive relationship with wine quality, while volatile acidity shows a negative relationship.
 - Several physicochemical features are right-skewed, suggesting the need for transformations during feature engineering.
+- Correlation analysis shows that alcohol content has a moderate positive relationship with wine quality, while volatile acidity and density are negatively correlated, indicating their strong influence on perceived quality.
 
 
 ## References
