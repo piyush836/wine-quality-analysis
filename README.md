@@ -1,5 +1,16 @@
-# Wine Quality EDA
+# Problem
+Understand which physicochemical properties of red wine influence quality ratings, and identify pattern that can help assess wine quality objectively.
 
+# Data Source
+Public Wine Quality(Red Wine) dataset from the UCI Machine Learning Repository, provided as a structured CSV file.
+
+# Final Output
+Exploratory insights and feature relationships that expalin variations in wine quality ratings and guide future predictive modeling.
+
+# Where  this fits in a Data Science Pipeline
+This project represents the exploratory data analysis (EDA) stage, helping validate data quality, uncover pattern, and inform feature selection before model training.
+
+# Wine Quality EDA
 This project explores the Wine Quality (Red Wine) dataset using Python and popular data analysis libraries.
 
 ## Dataset
@@ -29,5 +40,6 @@ This project explores the Wine Quality (Red Wine) dataset using Python and popul
 - Some features are skewed.
 
 ## References
+
 
 - [UCI Wine Quality Dataset](https://archive.ics.uci.edu/ml/datasets/wine+quality)
